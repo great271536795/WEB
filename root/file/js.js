@@ -253,9 +253,9 @@ function slide(){
     var oUl = oBanner.getElementsByTagName('ul')[0];
   var aLi = oBanner.getElementsByTagName('li');
     var data = [
-        { link: 'http://open.163.com/' , src : '网易教育产品部_files/images/banner1.jpg' },
-        { link: 'http://study.163.com/' , src : '网易教育产品部_files/images/banner2.jpg' },
-        { link: 'http://www.icourse163.org/' , src : '网易教育产品部_files/images/banner3.jpg' }
+        { link: 'http://open.163.com/' , src : 'root/images/banner1.jpg' },
+        { link: 'http://study.163.com/' , src : 'root/banner2.jpg' },
+        { link: 'http://www.icourse163.org/' , src : 'root/images/banner3.jpg' }
     ];
   
 //初始化 
@@ -718,23 +718,23 @@ if(document.body.offsetWidth <= 1205) {
 var timerBody;
 timerBody = setInterval(function() {
   if(document.body.offsetWidth <= 1205) {
-    minCss.href = '网易教育产品部_files/c1.css';
+    minCss.href = 'root/c1.css';
 
   } else {
-    minCss.href = '网易教育产品部_files/c2.css';
+    minCss.href = 'root/c2.css';
   }
 }, 500);
 
 window.onresize = function() {
   if(document.body.offsetWidth <= 1205) {
     //      console.log('小屏');
-    minCss.href = '网易教育产品部_files/c1.css';
+    minCss.href = 'root/c1.css';
     contenrAjax(1, 10, 15);
 
     //    }
 
   } else {
-    minCss.href = '网易教育产品部_files/c2.css';
+    minCss.href = 'root/c2.css';
     contenrAjax(1, 10, 20);
 
   }
