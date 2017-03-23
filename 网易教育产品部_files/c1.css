@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*小于1205px*/
+
+@media \0screen {
+.g-bd .g-top .m-slide .f-db{margin: 0 auto; }
+.g-bd .g-top .m-slide .clear{width: 100%; margin-left: auto; margin-right: auto; }
+.g-bd .g-top .m-slide {width: 100%;}
+.g-bd .g-sd {float: left;}
+}
+.contenr-l-list .kc:hover h3{color: #39a030;}
+body .main .contenr-l{
+	width: 740px;
+}
+.main .kc-hover:hover{
+	display: block;
+}
