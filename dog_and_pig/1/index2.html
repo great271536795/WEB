@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>我们的爱情故事</title>
+    
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital-7_mono.ttf') format("truetype");
+        }
+    </style>
+    <link href="./jscss/default.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./jscss/jquery.js"></script>
+    <script type="text/javascript" src="./jscss/garden.js"></script>
+    <script type="text/javascript" src="./jscss/functions.js"></script>
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="content" style="width: 1110px; height: 625px; margin-top: 52px; margin-left: 245px;">
+            <div id="code" style="margin-top: 112.5px;">
+                <span class="comments">傻瓜，明豪有话给你说</span><br>
+                <span class="space"><span class="comments">可能是两个人在一起时间长了，也可能是太在乎彼此</span><br>
+                <span class="space"><span class="comments">我们在这快两年的时间里吵过很多次</span><br>
+                <span class="space"><span class="comments">但是，每次都是在伤痛过后，更加的珍惜</span><br>
+                如果 <span class="keyword">我</span> 没有(<span class="string">遇见你</span>);<br>
+                如果 <span class="keyword">你</span> 不认识(<span class="string">我</span>);<br>
+                <span class="comments">那该有多好，那样批次就不会争吵</span><br>
+                但是，一切自是冥冥注定的<br>
+                <span class="comments">注定我会遇见你，你会认识我</span><br>
+                然后，我们相互了解<br>
+                <span class="comments">成为彼此所离不开的人</span><br>
+                <span class="keyword">感情中</span>确实会有摩擦<br>
+                <span class="comments">但是每次吵架，我都会惹你生气，伤心</span><br>
+                也许，使我嘴巴笨，不会安慰女生<br>
+                <span class="comments">也许，是我的情商很低，每次你不开心的时候我却不能找到正确的方式安慰你</span><br>
+                <span class="comments">结果是情况变得很糟</span><br>
+                然后，我们两个人互相赌气<br>
+                <span class="comments">昨天的事情，漫漫，对不起</span><br>
+                <span class="keyword">说了很多让你伤心的话</span> 我不奢求 <span class="keyword">你每次都能原谅我</span>;<br>
+                <span class="keyword">但我希望</span> 每次有什莫事情<br>
+                <span class="placeholder">咱们一起面对好吗<br>
+                <span class="placeholder"><span class="comments">有些话说出来就好了</span><br>
+                <span class="placeholder"><span class="comments">没有什么是过不去的</span><br>
+                <span class="placeholder">我真的希望我们无话不说，无事不谈<br>
+                }<br>
+                <span class="comments">少一点误会，多一点开心</span><br>
+                如果我可以权责决定以后的事情<br>
+                我真的希望我们能好好的一起一直走下去❤❤❤<br>
+
+
+            </span></span></span></span></span></span></span>_</div>
+            <div id="loveHeart">
+                <canvas id="garden" width="670" height="625"></canvas>
+                <div id="words" style="position: absolute; top: 257px; left: 765px;">
+                    <div id="messages" style="display: block;">
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3712320065678109";
+/* lovead */
+google_ad_slot = "0650322805";
+google_ad_width = 320;
+google_ad_height = 50;
+//-->
+</script>
+</center>
+                        明豪，好喜欢傻逼漫？？？
+                        <div id="elapseClock" style="display:none"></div>
+                        <a href="index3.html" id="accept">是的</a>
+                    </div>
+                    <div id="loveu" style="display: block;">
+                        爱你，真想给你一个巨大的么么哒❤。<br>
+                        <div class="signature">- 明豪</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script type="text/javascript">
+        var offsetX = $("#loveHeart").width() / 2;
+        var offsetY = $("#loveHeart").height() / 2 - 55;
+        
+        if (!document.createElement('canvas').getContext) {
+            var msg = document.createElement("div");
+            msg.id = "errorMsg";
+            msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+            document.body.appendChild(msg);
+            $("#code").css("display", "none")
+            $("#copyright").css("position", "absolute");
+            $("#copyright").css("bottom", "10px");
+            document.execCommand("stop");
+        } else {
+            setTimeout(function () {
+                adjustWordsPosition();
+                startHeartAnimation();
+            }, 10000);
+            
+            $("#accept").click(function(){
+                $(this).hide();
+                $("#elapseClock").show();
+                var together = new Date();
+                timeElapse(together);
+                setInterval(function () {
+                    timeElapse(together);
+                }, 500);
+            })
+            adjustCodePosition();
+            $("#code").typewriter();
+        }
+    </script>
+	<audio src="20140413_025646.mp3" autoplay="autoplay"></audio>
+
+</body></html>
