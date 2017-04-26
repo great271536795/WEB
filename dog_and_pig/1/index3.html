@@ -12,6 +12,7 @@ body {
     background-color: #FF62FF;
 }
 .content {
+    position: relative;
     width: 80%;
     color: #90F;
     height: 100%;
@@ -19,6 +20,7 @@ body {
     left: 10%;
     font-size: 18px;
     line-height: 25px;
+    text-align: center;
     font-family: "微软雅黑";
     margin-top: 0px;
 }
@@ -44,6 +46,17 @@ body {
 .des a {
     color: #3C3C3C;
     text-shadow : 0px 0px 1px #fff;
+}
+
+.think {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+.think:hover {
+    color: red;
+    font-size: 25px;
+    text-decoration: underline;
 }
 </style>
 <script src="./jscss/jquery-1.7.1.min.js" language="javascript" type="text/javascript"></script>
@@ -110,7 +123,7 @@ $(document).ready(function(e) {
 
 <center>
 <div align="left" class="content"><span id="txt"></span><span id="guang"></span>
-<span></span>
+<span class="think"><a href="">点击进入我们的回忆</a></span>
 </div>
 </center>
 

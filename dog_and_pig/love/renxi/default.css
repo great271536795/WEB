@@ -44,11 +44,17 @@ a {
 	top: 550px;
 	font-size: 28px;
 	display: none;
+
 }
 
 #clock-box a {
 	font-size: 28px;
 	text-decoration: none;
+}
+
+#clock-box a:hover{
+	background: orange;
+	font-size: 38px;
 }
 
 #clock {
